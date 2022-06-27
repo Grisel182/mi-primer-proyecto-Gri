@@ -32,12 +32,18 @@ p{
 footer{
     background-color:  #af599e;
     /* mismo color el boton de cv */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fbfbfb;
+    width: 100%;
+    height: 50px;
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;display: flex;
     padding: 16px;
     height: 90px;
     width: 100%;
@@ -86,11 +92,34 @@ section{
     background: rgba(175, 89, 158, 0.3);
   
 }
-#inicio{
-    border-radius: 50%;
-    border-width: 50px;
-    border-color: #0f0f0f;
+
+#cv{
+    background-color: #af599e;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fbfbfb;
 }
+
+.gato{
+    max-width: 400px;
+    border-radius: 50%;
+    float: left;
+}
+
+#bienvenida{
+    padding: 50px;
+}
+
+#links{
+    display:flex;
+}
+.social{
+    margin: 20px;
+    width: 60px;
+}
+
 /* Reset */
 * {
     box-sizing: border-box;
